@@ -1,0 +1,161 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto; 
+}
+header{
+	margin: auto;
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left;
+}
+.titulo{
+	font-size: 40px;
+	margin-top: 10px;
+}
+.sub-titulo{
+	font-size: 17px;
+	margin-top: 3px;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	margin: auto;
+	width: 650px;
+	font-family: Times New Roman;
+	float: right;
+	margin-top: 40px;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a {
+	background-color: none;
+	color: #006699;
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 15px 10px 15px;
+	display: block;
+	margin: 5px;
+}
+.nav li a:hover{
+	background-color: #006699;
+	color: #fff;
+	transition: 0.5s, color 0.5s;
+}
+.nav > li {
+	float: left;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 135px;
+}
+.nav li:hover > ul {
+	display: block;
+}
+#slider{
+	margin-top: 0px;
+	width: 900px;
+	height: 250px;
+	display: none;
+	display: block;
+	overflow: hidden;
+}
+#slider ul{
+	list-style: none;
+	width: 2700px;
+	display: flex;
+	animation: slide 15s infinite alternate;
+}
+@keyframes slide{
+	0% {margin-left: 0px;}
+	20% {margin-left: 0px;}
+
+	25% {margin-left: -900px;}
+	45% {margin-left: -900px;}
+
+	50% {margin-left: -1800px;}
+	70% {margin-left: -1800px;}
+
+	75% {margin-left: -2700px;}
+	100% {margin-left: -2700px;}
+}
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #006699;
+}
+.parrafo{
+	color: #000;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px; 
+	margin-right: 12px;
+}
+.leer-mas{
+	text-decoration: none;
+	color: #006699;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+}
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: 0.5s, color 0.5s;
+}
+.info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color:
+}
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color: #006699;
+	margin-top: 10px;
+}
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: #006699;
+	margin-top: 10px;
+}
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+#footer p{
+	width: 500px;
+}
